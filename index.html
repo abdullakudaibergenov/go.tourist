@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Устанавливает кодировку символов документа -->
+    <meta charset="UTF-8">
+
+      <!-- Настраивает представление страницы на мобильных устройствах -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- Предварительное соединение для ускорения загрузки шрифтов с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+         <!-- Подключение шрифтов Bebas Neue и Onest с Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Подключение шрифта Russo One с Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+   
+        <!-- Подключение основного CSS файла для стилизации страницы -->
+    <link rel="stylesheet" href="style.css">
+
+        <!-- Подключение CSS файла для сброса стилей браузера к базовым значениям -->
+    <link rel="stylesheet" href="reset.css">
+
+        <!-- Заголовок страницы, отображается на вкладке браузера -->
+    <title>Tourism</title>
+</head>
+<body>
+    <!-----------------------------ГЛАВНАЯ СТРАНИЦА----------------------->
+          <!-- Основной заголовок страницы -->
+          <header class="header">
+            <div class="container">
+    
+                    <!-- Внутреннее содержимое заголовка -->
+                <div class="header__inner">
+    
+                        <!-- Первый секционный блок в заголовке -->
+                    <div class="header__firstSection">
+    
+                        <!-- Первый секционный элемент -->
+                        <div class="firstSection">
+    
+                              <!-- Логотип сайта -->
+                            <img src="img/logo.png" alt="">
+    
+                              <!-- Список навигационных ссылок -->
+                            <ul class="firstSection__elem">
+                                <li class="firstSection__link"><a href="#network">Главная</a></li>
+                                <li class="firstSection__link"><a href="#beauty">Локации</a></li>
+                                <li class="firstSection__link"><a href="#tourist">Фотографии</a></li>
+                            </ul>
+                        </div>
+                                 <!-- Второй секционный элемент -->
+                        <div class="secondSection">
+    
+                                    <!-- Контактный номер телефона -->
+                            <p class="secondSection__title"><a href="">+7 707 200-58-48</a></p>
+    
+                                    <!-- Список иконок социальных сетей -->
+                            <ul class="secondSection__elem">
+                                <li class="secondSection__link"><a href="https://web.telegram.org/"><img src="img/socialMedia/tg.png" alt=""></a></li>
+                                <li class="secondSection__link"><a href="https://www.whatsapp.com/?lang=ru_RU"><img src="img/socialMedia/whatsapp.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                                    <!-- Второй элемент заголовка -->
+                    <div class="header__secondElem">
+    
+                                     <!-- Первый внутренний элемент -->
+                        <div class="first__Elem">
+    
+                                     <!-- Заголовок секции -->
+                            <div class="secondElem__title">
+                                <h2 id="title__one" class="title__one hidden">WHERE GO TO?</h2>
+                                <h2 id="title__two" class="title__two hidden">ATYRAU</h2>
+                            </div>
+                                     <!-- Круглая кнопка с ссылкой на видео -->
+                            <div class="secondElem__circle">
+                                <a href="https://youtu.be/xdT_R8pqHN4?si=5F6yIu03MkxS2sA-" target="_blank" >Видео-обзор</a>
+                            </div>
+                        </div>
+                                    <!-- Второй внутренний элемент -->
+                        <div class="second__Elem">
+    
+                                    <!-- Первое изображение с классом скрытия -->
+                            <div id="img__one" class="img__one hidden">
+                                <img src="img/build.webp" alt="">
+                            </div>
+    
+                                    <!-- Второе изображение с классом скрытия -->
+                            <div id="img__two" class="img__two hidden">
+                                <img src="img/makha.jpg" alt="">
+                            </div>
+                                     <!-- Третий элемент с текстом и изображением -->
+                            <div class="img__three">
+                                <div id="three__title" class="three__title hidden">
+                                    <p>Приглашаем вас окунуться в атмосферу Атырау – города, где каждый уголок пронизан историей и духом свободы.</p>
+                                </div>
+                                <div id="img__three" class="three__img hidden">
+                                    <img src="img/anotherBuild.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-----------------------------СЕКЦИЯ ПРЕКРАСНЫЙ ГОРОД----------------------->
+
+    <section id="network" class="network">
+        <!-- Секция "network", содержащая информацию и изображения о городе -->
+    <div class="container">
+        <div class="network__inner">
+
+                        <!-- Заголовок секции "network" с классом hidden для скрытия -->
+            <div id="network__title" class="network__title hidden">
+                <p>Прекрасный город, <br><span>красивые локации</span> <br>и дружные жители</p>
+            </div>
+
+                        <!-- Изображения секции "network" -->
+            <div class="network__images">
+                <img src="img/parkZone.webp" alt="">
+            </div>
+            <div class="network__imagesOne">
+                <img src="img/anotherBuild.webp" alt="">
+            </div>
+            <div id="network__imagesTwo" class="network__imagesTwo hidden">
+                <img src="img/place.webp" alt="">
+            </div>
+            <div id="network__imagesThree" class="network__imagesThree hid'">
+                <img src="img/sqer.webp" alt="">
+            </div>
+
+        <!-- Информация о локации -->
+            <div class="network__location">
+                <p class="atyrau">Западная часть страны.</p>
+                <p class="bigAtyrau">Основан в 1640 г.<br>
+                    братьями Гурьевыми.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-----------------------ФОТОГРАФИЯ РАЙОННЫХ ДОСТОПРИМ----------------------------->
+
+    <section class="slider__main">
+        <div class="container">
+            <div class="slider">
+                <img class='slider-img' src="img/difPhoto/ПЕСКИ НАРЫН (5).png" />
+                <img class='slider-img' src="img/difPhoto/ПЕСКИ НАРЫН (1).png" />
+                <img class='slider-img' src="img/difPhoto/ПЕСКИ НАРЫН (4).png" />
+                <img class='slider-img' src="img/difPhoto/ПЕСКИ НАРЫН (3).png" />
+        
+                <div>
+                    <img class="prev controlls" src="img/controller/left.png" alt="">
+                </div>
+        
+                <div>
+                    <img class="next controlls" src="img/controller/right.png" alt="">
+                </div>
+        
+            </div>
+        </div>
+    </section>
+
+      <!-----------------------ТЕКСТ СНИЗУ РАЙОННЫХ ФОТОГРАФИИ---------------------------->
+
+    <section id="places" class="places">
+        <div class="container">
+            <div class="places__inner">
+                <div id="place__one" class="place__one hidden">
+                    <div class="place__logo">
+                        <img src="img/littleDetails/icons8-пирамиды-30.png" alt="">
+                    </div>
+                    <div class="place__title">
+                        <h2>Сарайшык</h2>
+                        <p>Известный туристский объект Атырауской области это городище Сарайшык, которое находится в 50 километрах от города Атырау, на берегу реки Урал. </p>
+                    </div>
+
+                </div>
+                <div id="place__two" class="place__two hidden">
+                    <div class="placeTwo__logo">
+                        <img src="img/littleDetails/icons8-пустынный-пейзаж-50.png" alt="">
+                    </div>
+                    <div class="placeTwo__title">
+                        <h2>Пески Нарын</h2>
+                        <p>А еще здесь можно побывать в самой настоящей пустыне. Это пески Нарын-кум - огромное пространство песчаных бугров и барханов.  </p>
+                    </div>
+                </div>
+
+                <div id="place__three" class="place__three hidden">
+                    <div class="placeThree__logo">
+                        <img src="img/littleDetails/icons8-лотос-30.png" alt="">
+                    </div>
+                    <div class="placeThree__title">
+                        <h2>Лотосовые поля</h2>
+                        <p>Посетить реку можно не только для рыбалки. Одним из популярных направлений внутреннего туризма в Казахстане.</p>
+                    </div>
+                </div>
+
+                <div id="place__four" class="place__one hidden">
+                    <div class="place__logo">
+                        <img src="img/littleDetails/icons8-пещера-30.png" alt="">
+                    </div>
+                    <div class="place__title">
+                        <h2>Иманкара</h2>
+                        <p>Еще один объект, заслуживающий внимания - это пещера Иманқара, которая является историческим объектом, имеющим свою культурную ценность.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------------ГОРОДСКИЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ----------------------------->
+    <section id="beauty" class="beauty">
+        <div class="container">
+            <div class="beauty__inner">
+
+                    <!-- Первый раздел с информацией о достопримечательностях -->
+                <div class="beauty__firstSection">
+                    <div id="beauty__first" class="beauty__first hidden">
+                        <h2>Достопримечательности <span>внутри</span> города</h2>
+                    </div>
+                </div>
+                
+                   <!-- Второй раздел с конкретными достопримечательностями -->
+                <div class="beauty__secondSection">
+
+                      <!-- Первая достопримечательность -->
+                    <div id="beautySection__second" class="beautySection__second hidden">
+                        <div class="beautySecond__title">
+                            <h2><span>// </span>01</h2>
+                            <h3>Мечеть Имангали</h3>
+                        </div>
+                        <div class="beuty__saray">
+                            <p>— Мечеть Имангали центральная в Атырау. Это современное строение стало жемчужиной архитектуры города. </p>
+                        </div>
+                    </div>
+
+                      <!-- Вторая достопримечательность -->
+                    <div id="beautySection__three" class="beautySection__second hidden">
+                        <div class="beautySecond__title">
+                            <h2><span>// </span>02</h2>
+                            <h3>Памятник Исатаю и Махамбету</h3>
+                        </div>
+                        <div class="beuty__saray">
+                            <p>— Памятник посвящен казахскому восстанию в Букеевской Орде в 1836-1838 гг.</p>
+                        </div>
+                    </div>
+
+                     <!-- Третья достопримечательность -->
+                    <div id="beautySection__four" class="beautySection__second hidden">
+                        <div class="beautySecond__title">
+                            <h2><span>// </span>03</h2>
+                            <h3>Драматический театр имени Махамбета</h3>
+                        </div>
+                        <div class="beuty__saray">
+                            <p>— Театр стал одним из первых в Казахстане, его открыли в 1938 году. Он носит имя национального героя и поэта Махамбета.</p>
+                        </div>
+                    </div>
+
+                      <!-- Четвертая достопримечательность -->
+                    <div id="beautySection__five" class="beautySection__second hidden">
+                        <div class="beautySecond__title">
+                            <h2><span>// </span>04</h2>
+                            <h3>Парк Победы</h3>
+                        </div>
+                        <div class="beuty__saray">
+                            <p>— Один из крупных комплексов в Западном Казахстане, посвященный Победе в Великой Отечественной войне.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Информация о том, что не стоит забывать о музее -->
+                <div class="beauty__forget">
+                    <div class="beautyForget__one">
+                        <h2>НЕ <span>ЗАБУДЬТЕ</span></h2>
+                        <h3>Краеведческий музей</h3>
+                    </div>
+                    <div class="beautyAdmin__one">
+                        <h2>Не забудьте посетить Краеведческий музей. В настоящее<br>время в архивах этой достопримечательности насчитывается<br>более 30 тысяч единиц хранения. </h2>
+                        <button><a target="_blank" href="https://atyrau-museum.kz/kz/">Посмотреть</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--------------ФОТОГРАФИИ КАРУСЕЛЬ ГОРОДСКИХ ДОСТОПРИМЕЧАТИЕЛЬНОСТИ------------>
+                  <div class="marque-infinite">
+                <div>
+                  <span>
+                    <img style="border-radius: 50%;" src="img/build.webp" alt="">
+                    <img src="img/church.webp" alt="">
+                    <img  src="img/culture.webp" alt="">
+                    <img style="border-radius: 50%;"  src="img/filarmonia.webp" alt="">
+                  </span>
+                  <span>
+                    <img src="img/makha.jpg" alt="">
+                    <img src="img/monymentOf.jpg" alt="">
+                    <img style="border-radius: 50%;"  src="img/parkWin.jpg" alt="">
+                    <img src="img/parkZone.webp" alt="">
+                  </span>
+                  <span>
+                    <img src="img/place.webp" alt="">
+                    <img style="border-radius: 50%;"  src="img/sqer.webp" alt="">
+                    <img src="img/theatr.webp" alt="">
+                    <img src="img/mechet.webp" alt="">
+                  </span>
+                </div>
+              </div>
+            </div>
+       
+
+    <!-----------------------ПОЕЗДКА ТУР----------------------------->
+
+    <section id="travel" class="travel">
+            <!-- Секция "travel", содержащая информацию о поездках -->
+        <div class="container">
+            <div class="travel__inner">
+
+                            <!-- Заголовок секции "travel" -->
+                <div id="travel__title" class="travel__title hidden">
+                    <h2>ПОЕЗДКА С НАМИ</h2>
+                </div>
+
+                                 <!-- Кнопка для покупки экскурсий -->
+                <div class="travel__btn">
+                    <button>Покупка экскурсий</button>
+                </div>
+
+                                <!-- Список доступных поездок -->
+                <div class="travel__lists">
+
+                                <!-- Первая поездка -->
+                    <div class="travel__elemFirst">
+
+                                <!-- Информация о цене и дополнительных услугах -->
+                        <div class="travel__price">
+                            <h1>Сарайшык + Лотосовые поля</h1>
+                            <h2>Экскурсия каждый день</h2>
+                            <h3><span>30.000</span> тг/чел</h3>
+                        </div>
+
+                                <!-- Дополнительная информация о поездке -->
+                        <div class="travel__extra">
+                            <h1>— Отправка утром в 10:00</h1>
+                            <h2>— Время на локации 4 часа</h2>
+                            <h3>— С собой брать: Деньги и хорошее настроение</h3>
+                            <h4><span>* </span>Просим бронировать заранее</h4>
+                        </div>
+
+                                <!-- Кнопка для связи или бронирования -->
+                        <div class="travel__book">
+                            <button>Позвонить</button>
+                        </div>
+                    </div>
+
+                             <!-- Вторая поездка -->
+                    <div class="travel__elemSecond">
+
+                                    <!-- Информация о цене и дополнительных услугах -->
+                        <div class="travelSecond__price">
+                            <h1>Пески Нарын + Иманкара</h1>
+                            <h2>— Отправка утром в 9:00</h2>
+
+                                    <!-- Цены с учетом скидки -->
+                            <div class="travelSecond__more">
+                                <h3><span>25.000</span> тг/чел</h3>
+                                <h4>(30.000 тг)</h4>
+                                <p>-20%</p>
+                            </div>
+                            <p>— Отправка в 14:00</p>
+                            <div class="travelSecond__more">
+                                <h3><span>23.000</span> тг/чел</h3>
+                                <h4>(27.000 тг)</h4>
+                                <p>-18%</p>
+                            </div>
+                        </div>
+                                    <!-- Дополнительная информация о поездке -->
+                        <div class="travelSecond__extra">
+                            <h4><span>* </span>Места ограничены
+                            </h4>
+                        </div>
+                                    <!-- Кнопка для бронирования -->
+                        <div class="travelSecond__book">
+                            <button>Забронировать</button>
+                        </div>
+                    </div>
+                                    <!-- Блок "ВСЕ ВКЛЮЧЕНО" -->
+                        <div class="travelSecond__block">
+
+                                    <!-- Заголовок блока -->
+                            <div class="travelSecondBlock__title">
+                                <h1>ВСЕ ВКЛЮЧЕНО</h1>
+                                <h3>Все 4 локации:</h3>
+
+                                    <!-- Список включенных услуг -->
+                                <ul class="plus">
+                                    <li>— 2-x разовое питание</li>
+                                    <li>— экскурсия</li>
+                                    <li>— фотосьемка</li>
+                                </ul>
+                            </div>
+
+                                    <!-- Информация о стоимости -->
+                            <div class="travelSecondBlock__equip">
+                                <h3><span>45.000</span> тг/час</h3>
+
+                                    <!-- Кнопка для бронирования -->
+                                <div class="travel__bookDif">
+                                    <button>Забронировать</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------О КОМПАНИИ----------------------------->
+    <div id="me" class="me">
+            <div class="me__inner">
+                <div class="me__block">
+                    <h2>Компания Go.Tourist</h2>
+                    <p>Наше турагентство – это не просто организация поездок, это создание волшебных<br> моментов и исполнение мечт. <br> Мы стремимся сделать каждое путешествие особенным, подарить Вам радость открытия новых мест и культур.</p>
+                    <div class="me__mix">
+                            <div class="mix__f">
+                                <div class="mix__fNumber">4000 <span>+</span></div>
+                                <div class="mix__fText">ДОВОЛЬНЫХ<br> ТУРИСТОВ</div>
+                            </div>
+                            <div class="mix__f">
+                                <div class="mix__fNumber">50 <span>+</span></div>
+                                <div class="mix__fText">СОТРУДНИКОВ</div>
+                            </div>
+                    </div>
+                </div>
+                <div class="me__secondBlock">
+                    <div class="me__imgBlock">
+                        <img src="img/me/IMG_2404.PNG" alt="">
+                    </div>
+                    <div class="me__secondElem">
+                        <div class="me__secondElemInner">
+                            <h1>АБДУЛЛА КУДАЙБЕРГЕНОВ</h1>
+                            <p class="under__vit">Основатель</p>
+                            <p class="full__text">Основатель международной туристической компании GO.TOURIST (с 2022 года), предприниматель, it-программист, бизнес-блогер, студент колледжа ПМВК.</p>
+                            <ul class="elemInner__list">
+                                <li class="i">
+                                    <img src="img/icons8-done-16.png" alt="">
+                                    <p>Менеджмент и управление</p>
+                                </li>
+                                <li class="i">
+                                    <img src="img/icons8-done-16.png" alt="">
+                                    <p>Выход на международные рынки</p></li>
+                                <li class="i">
+                                    <img src="img/icons8-done-16.png" alt="">
+                                    <p>B2B партнерства</p></li>
+                            </ul>
+                            <div class="elemInner__btns">
+                                <button class="btn"><a href="https://www.instagram.com/_qudaibergenov_?igsh=MWJoajJpd2kzN2p0NQ==">INSTAGRAM</a></button>
+                                <button class="btn__second"><a href="https://web.telegram.org/">TELEGRAM</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-----------------------ТУРИСТЫ ФОТОГРАФИИ КАРУСЕЛЬ----------------------------->
+
+    <section id="tourist" class="tourist">
+        <div class="tourist__inner">
+            <div class="tourist__title">
+                <h1>МЕСТА, <span>ЗАПЕЧАТЛЕННЫЕ</span> <br>ТУРИСТАМИ</h1>
+            </div>
+            <div class="marque-infinite">
+                <div>
+                  <span>
+                    <img style="border-radius: 50%;" src="img/torist/imankara.jpg" alt="">
+                    <img src="img/torist/inder.jpeg" alt="">
+                    <img  src="img/torist/kigach.png" alt="">
+                    <img style="border-radius: 50%;"  src="img/torist/lotos.jpg" alt="">
+                  </span>
+                  <span>
+                    <img src="img/torist/naryn.jpg" alt="">
+                    <img src="img/torist/saray.jpg" alt="">
+                    <img style="border-radius: 50%;"  src="img/anotherBuild.webp" alt="">
+                    <img src="img/build.webp" alt="">
+                  </span>
+                  <span>
+                    <img src="img/torist/imankara.jpg" alt="">
+                    <img style="border-radius: 50%;"  src="img/torist/inder.jpeg" alt="">
+                    <img src="img/torist/kigach.png" alt="">
+                    <img src="img/torist/lotos.jpg" alt="">
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+                <div class="tourist__corp">
+                    <div class="corp">
+                        <div class="corp__title">
+                            <h1>Предстоящие поездки:</h1>
+                            <p>1 июня: ТУЗДЫ КОЛ ИНДЕР<br>5 июня: КИГАЧ<br>10 июня: АККЕГЕРШИН</p>
+                            <button>Узнать подробнее</button>
+                        </div>
+                    </div>
+                    <div class="corp">
+                        <div class="corp__title">
+                            <h1>Еще достопримечательности:</h1>
+                            <p>Атырау – это не только город, но и ключ к бескрайним просторам Казахстана. Здесь начинаются удивительные путешествия по бескрайним степям и пустыням.</p>
+                            <button><a target="_blank" href="https://www.gov.kz/memleket/entities/mfa-ekaterinburg/press/news/details/656084?lang=ru">Википедия</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-----------------------ПОЛЕЗНАЯ ИНЕФОРМАЦИЯ----------------------------->
+
+    <section id="questions" class="questions">
+        <!-- Секция "questions", содержащая полезную информацию -->
+    <div class="container">
+        <div class="questions__inner">
+
+                        <!-- Заголовок секции -->
+            <div id="question__title" class="question__title hidden">
+                <h1>Полезная информация</h1>
+            </div>
+                        <!-- Аккордеон с разделами информации -->
+                <div id="accordion-1" class="accordion hidden">
+                  <div data-tab="tab-1" class="accordion__title">
+                    <h3>Погода и климат:</h3>
+                    <span></span>
+                  </div>
+                  <div id="tab-1" class="accordion__content">
+                    Изучите климат вашего места назначения, чтобы быть готовыми к изменениям погоды. Узнайте, какие сезоны наиболее благоприятны для посещения, чтобы сделать подходящие выборы одежды и аксессуаров.
+                  </div>
+                </div>
+                        <!-- Аккордеон с разделами информации -->
+                <div id="accordion-2" class="accordion hidden">
+                  <div data-tab="tab-2" class="accordion__title">
+                    <h3>Местная валюта и обмен валюты:</h3>
+                    <span></span>
+                  </div>
+                  <div id="tab-2" class="accordion__content">
+                    Узнайте о местной валюте и текущем обменном курсе. Имейте при себе некоторое количество местной валюты на случай необходимости, и изучите, где можно обменять деньги или снять наличные.
+                  </div>
+                </div>
+                        <!-- Аккордеон с разделами информации -->
+            
+                <div id="accordion-3" class="accordion hidden">
+                  <div data-tab="tab-3" class="accordion__title">
+                    <h3>Язык и коммуникация:</h3>
+                    <span></span>
+                  </div>
+                  <div id="tab-3" class="accordion__content">
+                    Ознакомьтесь с основными фразами на местном языке или возьмите с собой фразовые карточки для общения с местными жителями. Убедитесь, что у вас есть контактные данные отеля или местного гида на случай необходимости.
+                  </div>
+                </div>
+                        <!-- Аккордеон с разделами информации -->
+                <div id="accordion-4" class="accordion hidden">
+                  <div data-tab="tab-4" class="accordion__title">
+                    <h3>Транспорт и перемещение:</h3>
+                    <span></span>
+                  </div>
+                  <div id="tab-4" class="accordion__content">
+                    Изучите различные варианты транспорта в вашем месте назначения: общественный транспорт, такси, аренда автомобиля и т. д. Планируйте маршруты заранее и учитывайте время в пути при планировании поездок.
+                  </div>
+                </div>
+                        <!-- Аккордеон с разделами информации -->
+                <div id="accordion-5" class="accordion hidden">
+                  <div data-tab="tab-5" class="accordion__title">
+                    <h3>Электроника и связь:</h3>
+                    <span></span>
+                  </div>
+                  <div id="tab-5" class="accordion__content">
+                    Проверьте совместимость ваших электронных устройств с местной электросетью и возможность использования местной сим-карты для доступа в интернет. Обязательно сохраните важные контакты и документы в электронном виде для доступа из любой точки.
+                  </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <!-- Футер -->
+<div class="container">
+    <div class="footer__inner">
+        <div class="footerFirst__section">
+
+                <!-- Навигационные ссылки -->
+            <ul class="footer__nav">
+                <li><a href="#network">ГЛАВНАЯ</a></li>
+                <li><a href="#beauty">ЛОКАЦИИ</a></li>
+                <li><a href="#tourist">ФОТОГРАФИИ</a></li>
+            </ul>
+
+                <!-- Логотип и название сайта -->
+            <div class="footer__logo">
+                <div class="footer__img">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="footer__btn">
+                    <h2>go.tourist.kz</h2>
+                </div>
+            </div>
+
+                <!-- Ссылки на социальные сети -->
+            <ul class="footer__nav">
+                <li><a href="https://web.telegram.org/">TELEGRAM</a></li>
+                <li><a href="https://www.instagram.com/">INSTAGRAM</a></li>
+                <li><a href="https://www.whatsapp.com/?lang=ru_RU">WHATSAPP</a></li>
+            </ul>
+        </div>
+        <div class="footerSecond__section">
+             
+                <!-- Адрес и контактный номер -->
+            <ul class="footer__adress">
+                <li>г. Атырау</li>
+            </ul>
+            <ul class="footer__number">
+                <li>+ 707 200-58-48</li>
+                <li>10:00–18:00 пн-вс</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
